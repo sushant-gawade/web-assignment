@@ -1,0 +1,14 @@
+.color-change-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .color-change-button:hover {
+    background-color: #45c55a;
+  }

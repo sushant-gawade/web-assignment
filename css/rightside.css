@@ -1,0 +1,41 @@
+.rightside{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+}
+.war
+  {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+.product-details {
+  flex: 1;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.product-image {
+  flex: 1;
+  padding: 20px;
+}
+
+.product-image img {
+  max-width: 75%;
+  height: auto;
+}
+
+/* 2nd attach*/
+  .image {
+    flex: 1;
+    padding: 20px;
+  }
+
+  .image img {
+    max-width: 50%;
+    height: auto;
+    
+  }

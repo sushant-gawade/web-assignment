@@ -1,0 +1,162 @@
+
+/*Body CSS*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    
+}
+/* Reset some default styles */
+
+
+/* Style the header */
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+}
+
+/* Style the logo */
+.logo img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  margin-left: 35px;
+}
+
+/* Style the menu */
+.menu ul {
+  list-style: none;
+  display: flex;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .main-header {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .menu {
+      margin-top: 10px;
+  }
+
+  .menu ul {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .menu li {
+      margin: 10px 0;
+  }
+}
+
+
+
+
+.kit {
+  text-align: center;
+  padding: 100px;
+}
+.kit {
+  position: relative;
+  margin: auto;
+  width: 70%;
+}
+s
+
+/* section area*/
+.logo img {
+  max-width: 100%;
+  height: auto;
+}
+    
+    /* Style the right section */
+    .leftsection{
+      position: relative;
+      left: 40px;
+      padding-bottom: 15px;
+    }
+    .rightsection{
+      position: absolute;
+      right: 240px;
+      margin: -160px;
+      
+    }
+    
+
+    
+    /* Subcribe Email Container */
+  .subscribe-container {
+    text-align: center;
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
+    max-width: 1465px;
+    box-sizing: border-box;
+
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+
+    
+  }
+
+  .subscribe-form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .subscribe-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .subscribe-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+
+  .subscribe-button:hover {
+    background-color: #2dca6a;
+  }
+
+/* Style the footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the footer content */
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Style the copyright notice */
+.footer-content p {
+  font-size: 14px;
+}
+
+
+

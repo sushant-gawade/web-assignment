@@ -1,0 +1,31 @@
+.slider-container {
+  position: relative;
+  margin: auto;
+  padding: 10px;
+  width: 1500px;
+  height: 280px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.slider {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+.profile {
+  width: 300px;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+button {
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: auto;
+}
+
+

@@ -1,0 +1,29 @@
+.leftside {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+  }
+
+  .raw {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .image {
+    flex: 1;
+    padding: 20px;
+  }
+
+  .image img {
+    max-width: 75%;
+    height: auto;
+}
+
+  .details {
+    flex: 1;
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
